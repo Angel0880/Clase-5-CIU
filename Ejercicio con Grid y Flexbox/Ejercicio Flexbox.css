@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Sen', sans-serif;
+    font-weight: 100;
+}
+
+.container {
+    
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5%;
+    background: rgb(78, 21, 209);
+    height: 180px;
+    border-style: solid;
+    border-right: 10;
+    border-left: 10;
+    border-top: 10;
+    border-bottom: none;
+    border-right-color:rgb(150, 147, 147);
+    border-left-color: rgb(150, 147, 147);
+    border-top-color:  rgb(150, 147, 147);
+
+}
+
+img {
+    
+    margin-top: 5px;
+    height: 40px;
+    width: 40px;
+
+}
+
+#PageTitle {
+
+    color: white;
+    font-size: xx-large;
+    justify-content: center;
+    margin: 5px;
+    height: 40px;
+    width: 200px;
+
+}
